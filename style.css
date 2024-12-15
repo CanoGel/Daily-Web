@@ -1,0 +1,441 @@
+*{
+    margin: 0;
+}
+
+.head{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+    align-items: center;
+}
+.head ul a{
+    text-decoration: none;
+    color: black;
+    font-family: Roboto;
+}
+.head ul a:hover{
+    color: blueviolet;
+}
+.head ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    color: black;
+}
+
+.text-1{
+    margin-top: -730px;
+    margin-left: 100px;
+    font-family: Roboto;
+}
+.text-1 h1{
+    font-size: 50px;
+    padding-top: 20px;
+    font-weight: 200;
+}
+.text-1 h2{
+    font-size: 70px;
+    padding-top: 20px;
+}
+.text-1 h3 {
+    font-size: 24px;
+    padding-top: 8px;
+
+}
+.button {
+    display: flex;
+    gap: 20px;
+    padding-top: 30px;
+}
+.btn-1 button{
+    padding: 13px 30px;
+    border-image: linear-gradient(to right, rgb(73, 43, 226), blueviolet)1;
+}
+.btn-1 button:hover{
+    padding: 15px 30px;
+    background: linear-gradient(to bottom right, rgb(73, 43, 226), blueviolet);
+    border: none;
+    background-color: #fff;
+}
+.btn-2 button{
+    padding: 13px 30px;
+    border-image: linear-gradient(to right, rgb(73, 43, 226), blueviolet)1;
+}
+.btn-2 button:hover{
+    padding: 15px 30px;
+    background: linear-gradient(to bottom right, rgb(73, 43, 226), blueviolet);
+    border: none;
+    background-color: #fff;
+}
+.banner{
+    height: 1300px;
+}
+.banner img{
+    margin-top: -330px;
+    width: 540px;
+    margin-left: 650px;
+}
+
+.let{
+    margin-top: -1000px;
+    display: flex;
+    gap: 30px;
+    font-family: Roboto;
+}
+.comp img{
+    margin-left: 40px;
+    height: 430px;
+    width: 430px;
+}
+.cv{
+    margin-top: 30px;
+    margin-left: 60px;
+}
+.cv h1{
+    padding-top: 15px;
+    font-size: 70px;
+    color: black;
+    font-weight: 300;
+    letter-spacing: 7px;
+}
+.cv p{
+    padding-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    color: gray;
+    line-height: 25px;
+}
+.cv button{
+    margin-top: 30px;
+    padding: 13px 30px;
+    border-image: linear-gradient(to right, rgb(73, 43, 226), blueviolet)1;
+}
+.cv button:hover{
+    padding: 15px 30px;
+    background: linear-gradient(to bottom right, rgb(73, 43, 226), blueviolet);
+    border: none;
+    background-color: #fff;
+}
+
+.icon{
+    height: 800px;
+    font-family: Roboto;
+}
+.icons{
+    line-height: 100px;
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    margin-top: -750px;
+    margin-left: 100px;
+}
+.bg{
+    background-color:rgb(248, 243, 247);
+    height: 400px;
+    width: 400px;
+    margin-left: 760px;
+    margin-top: 150px;
+    position: relative;
+    z-index: -1;
+}
+.icon img{
+    top: 1630px;
+    position: absolute;
+    left: 690px;
+}
+.icons img {
+    transition: transform 0.3s ease, opacity 0.3s ease, box-shadow 0.3s ease;
+    padding: 10px 10px;
+}
+.icons img:hover {
+    transform: scale(1.1); 
+    opacity: 0.9;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+.bg{
+    display: flex;
+    justify-content: space-between;
+}
+.bg h1{
+    color: blueviolet;
+    font-size: 80px;
+    padding-top: 40px;
+    padding-left: 35px;
+}
+.pa {
+    margin-right: 140px;
+    font-size: 22px;
+    margin-top: 60px;
+    font-weight: bold;
+    line-height: 30px;
+
+}
+.call{
+   position: absolute;
+   bottom: 60px;
+   display: flex;
+   left: 100px;
+}
+.call i{
+    font-size: 50px;
+    padding-right: 20px;
+}
+.now a{
+    text-decoration: none;
+    font-size: 22px;
+}
+.now p{
+    font-size: 14px;
+    color: gray;
+}
+
+
+.service{
+    
+    text-align: center;
+    padding-top: 100px;
+    font-family: Roboto;
+}
+.service h1{
+    color: blueviolet;
+}
+.service p{
+    padding-top: 20px;
+    color: gray;
+}
+
+.flex{
+    display: flex;
+    font-family: Roboto;
+    text-align: center;
+    padding-top: 30px;
+    padding-left: 280px;
+}
+.box{
+    width: 220px;
+    height: 300px;
+    background-color: aliceblue;
+    margin: 0px -20px;
+    gap: 0px;
+}
+.box img{
+    padding-top: 35px;
+}
+.box h1{
+    font-size: 18px;
+    padding-top: 20px;
+    font-weight: 700;
+    color: gray;
+}
+.box p{
+    font-size: 13px;
+    padding-top: 20px;
+    color: gray;
+}
+.box:hover{
+    transform: translateY(-8px);
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+}
+
+.done h1{
+    font-family: Roboto;
+    font-size: 40px;
+    text-transform: uppercase;
+    padding-left: 100px;
+    padding-top: 50px;
+}
+.all{
+    display: flex;
+    list-style: none;
+    padding-left: 100px;
+    gap: 55px;
+    font-weight: bold;
+    font-family: Roboto;
+    padding-top: 50px;
+}
+.shop{
+    font-family: Roboto;
+    display: flex;
+    gap: 40px;
+    padding-left: 100px;
+    padding-top: 60px;
+}
+.main img{
+    width: 300px;
+}
+.main h1{
+    text-align: left;
+}
+.main p{
+    text-align: left;
+}
+.main img:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.client {
+    text-align: center;
+    margin-top: 100px;
+    font-family: Roboto;
+}
+.client h1{
+    color: blueviolet;
+    margin-bottom: 20px;
+}
+.slider {
+    margin-top: 60px;
+    margin-left: 180px;
+    width: 80%;
+    max-width: 900px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.cards {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.card {
+    font-family: Roboto;
+    flex: 0 0 50%;
+    background: white;
+    margin: 10px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.card img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.card h3 {
+    font-size: 16px;
+    margin: 0;
+    font-weight: bold;
+}
+
+.card p {
+    color: #777;
+    font-size: 14px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.dot {
+    width: 10px;
+    height: 10px;
+    margin: 0 5px;
+    background: #ddd;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.dot.active {
+    background: #4a90e2;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+.subscribe{
+    font-family: Roboto;
+}
+.subscribe img{
+    margin-top: 120px;
+    height: 500px;
+    width: 1100px;
+    margin-left: 90px;
+}
+.subscribe h1{
+    margin-top: -350px;
+    margin-left: 430px;
+    color: white;
+}
+.subscribe p{
+    margin-top: 20px;
+    color: white;
+    margin-left: 330px;
+}
+.email{
+    height: 240px;
+    margin-top: 40px;
+    margin-left: 500px;
+    border: none;
+}
+.email input{
+    background-color: 0000000;
+    border-color: white;
+    color: white;
+    border: 1px solid white;
+    padding: 14px 40px;
+    margin-left: -70px;
+}
+.email button{
+    border-image: linear-gradient(to right, rgb(72, 242, 92), rgb(106, 255, 163))0.5;
+    padding: 14px 20px;
+    margin-left: 30px;
+}
+
+
+.foter {
+    position: relative;
+    font-family: Roboto;
+}
+.follow img{
+    position: absolute;
+    margin-top: -225px;
+    margin-left: 580px;
+}
+.follow h1{
+    position: absolute;
+    margin-top: -170px;
+    margin-left: 590px;
+    font-size: 20px;
+}
+.social {
+    gap: 40px;
+    display: flex;
+    position: absolute;
+    margin-top: -130px;
+    margin-left: 560px;
+    font-size: 20px;
+}
+.social i{
+    color: #ddd;
+}
+.social i:hover{
+    color:blueviolet;
+}
+footer {
+    font-family: Roboto;
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 400px;
+    font-size: 16px;
+}
+.nav i{
+    display: none;
+}
